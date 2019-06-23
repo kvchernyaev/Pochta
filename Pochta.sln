@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pochta.Server", "Pochta.Server\Pochta.Server.csproj", "{ABBE4E95-1EE0-4B62-80A9-E9C2D4EA40BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4BE85E4-1BA8-42ED-95DE-2BF298A47B3D}"
+	ProjectSection(SolutionItems) = preProject
+		dotnet-backend-test-task.md = dotnet-backend-test-task.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pochta.Client", "Pochta.Client\Pochta.Client.csproj", "{0546BA10-7F5C-4106-BED9-7BA828C36BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pochta.Common", "Pochta.Common\Pochta.Common.csproj", "{4953B01C-28DC-48A5-956A-66EB591A0970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABBE4E95-1EE0-4B62-80A9-E9C2D4EA40BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBE4E95-1EE0-4B62-80A9-E9C2D4EA40BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBE4E95-1EE0-4B62-80A9-E9C2D4EA40BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBE4E95-1EE0-4B62-80A9-E9C2D4EA40BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0546BA10-7F5C-4106-BED9-7BA828C36BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0546BA10-7F5C-4106-BED9-7BA828C36BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0546BA10-7F5C-4106-BED9-7BA828C36BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0546BA10-7F5C-4106-BED9-7BA828C36BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4953B01C-28DC-48A5-956A-66EB591A0970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4953B01C-28DC-48A5-956A-66EB591A0970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4953B01C-28DC-48A5-956A-66EB591A0970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4953B01C-28DC-48A5-956A-66EB591A0970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D729DA5-6F07-406B-B402-E084F74EA184}
+	EndGlobalSection
+EndGlobal
